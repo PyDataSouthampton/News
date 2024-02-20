@@ -24,5 +24,5 @@ Once you have made modifications/additions to the month's slides, convert it to
 a slideshow and serve it with:
 
 ```
-jupyter nbconvert <name of ipynb file> --to slides --post serve
+jupyter nbconvert <name of ipynb file> --to slides --no-input --post serve
 ```
